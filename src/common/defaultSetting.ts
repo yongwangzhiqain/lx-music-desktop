@@ -5,9 +5,9 @@ const isMac = process.platform == 'darwin'
 const isWin = process.platform == 'win32'
 
 const defaultSetting: LX.AppSetting = {
-  version: '2.1.0',
+  version: '2.2.0',
 
-  'common.windowSizeId': 3,
+  'common.windowSizeId': 4,
   'common.fontSize': 16,
   'common.startInFullscreen': false,
   'common.langId': null,
@@ -126,6 +126,10 @@ const defaultSetting: LX.AppSetting = {
   'download.isEmbedLyricT': false,
   'download.isEmbedLyricR': false,
   'download.isUseOtherSource': false,
+
+  'backup.autoBackup.enable': true,
+  'backup.autoBackup.path': 'D:\\backup',
+  'backup.autoBackup.maxBackupCount': 3,
 
   'search.isShowHotSearch': false,
   'search.isShowHistorySearch': false,
