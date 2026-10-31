@@ -18,7 +18,7 @@ const defaultSetting: LX.AppSetting = {
   'common.randomAnimate': true,
   'common.isAgreePact': false,
   'common.controlBtnPosition': isMac ? 'left' : 'right',
-  'common.playBarProgressStyle': 'mini',
+  'common.playBarProgressStyle': 'middle',
   'common.transparentWindow': !isMac,
   'common.tryAutoUpdate': true,
   'common.showChangeLog': true,
@@ -109,7 +109,7 @@ const defaultSetting: LX.AppSetting = {
   'list.addMusicLocationType': 'top',
   'list.actionButtonsVisible': false,
 
-  'download.enable': false,
+  'download.enable': true,
   'download.isSavePathGroupByListName': false,
   'download.savePath': path.join(os.homedir(), 'Desktop'),
   'download.fileName': '歌名 - 歌手',
@@ -131,9 +131,9 @@ const defaultSetting: LX.AppSetting = {
   'backup.autoBackup.path': 'D:\\backup',
   'backup.autoBackup.maxBackupCount': 3,
 
-  'search.isShowHotSearch': false,
-  'search.isShowHistorySearch': false,
-  'search.isFocusSearchBox': false,
+  'search.isShowHotSearch': true,
+  'search.isShowHistorySearch': true,
+  'search.isFocusSearchBox': true,
 
   'network.proxy.enable': false,
   'network.proxy.host': '',
